@@ -112,27 +112,17 @@
           
       }
 
-      @media (min-width: 1000px) {
-        header {
-          background-position:150px;
-        }
-      }
-
-      @media (max-width: 1000px) {
-        header {
-          background-position:center;
-        }
-      }
-
       header {
         background-image: url('./Images/Kleidung_schenken.JPG');
         height: 300px;
-        background-repeat: no-repeat;
+        background-position:center;
+        background-repeat: no-repeat; 
+        background-color:maroon;
       }
 
       header div {
         margin-left: 20px; 
-        margin-right: 200px; 
+        
         margin-top: 50px;
       }
 
@@ -141,15 +131,24 @@
         font-size:xx-large;
         color: bisque;
       }
-      
+
+      :root  {
+        --ContentWidth: 1240px;
+      }
+
+      body {
+        max-width: var(--ContentWidth);
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
 
   </head>
-  <body> 
+  <body > 
     <header class="d-flex flex-wrap align-items-center justify-content-md-between mb-4 border-bottom">
       <div class="col-md-1">
         <a href="/"" >
-          <img src=".\Images\Kleiderbehaelter.png" alt="Trulli" width="360" height="120">
+          <img src=".\Images\Kleiderbehaelter.png" width="360" height="120">
         </a>
       </div>
 
