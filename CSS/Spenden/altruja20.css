@@ -1,0 +1,2561 @@
+html {
+	font-family: initial;
+	line-height: initial;
+}
+
+body {
+	background: transparent;
+	font-family: 'Roboto','Arial', 'Helvetica', 'Tahoma';
+	position: relative;
+	margin: 0px;
+	font-weight: 400;
+	font-size: initial;
+	line-height: initial;
+	color: initial;
+	text-align: initial;
+}
+
+#altruja *, #altruja ::after, ::before {
+	box-sizing: content-box;
+}
+#altruja p {
+    margin-bottom: 14px;
+}
+#altruja .tooltip {
+    position: inherit;
+    z-index: inherit;
+    display: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    font-size: inherit;
+    word-wrap: inherit;
+    opacity: 1;
+}
+#altruja label {
+	margin-bottom: 0;
+	margin-bottom: unset;
+}
+#altruja label[suffix]:after{
+	content: attr(suffix);
+	margin-left: 4px;
+	opacity: 0.4;
+	font-size: 85%;
+	vertical-align: top;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input [type=submit] {
+	-webkit-appearance: none;
+	}
+
+#altruja input[type="radio"] {
+	margin: 3px 3px 0 5px;
+}
+#altruja input[type="checkbox"] {
+	margin: 3px 3px 3px 4px;
+}
+
+#altruja .tooltip-medium{
+  width:200px;
+  background: #FFF url("/images/2.0/box-background.png") bottom left repeat-x;
+  }
+
+#altruja .fb-login-box{
+  margin-top:10px;
+  }
+#altruja .fb-login-button{
+  width:100%;
+  }
+
+#altruja .tooltip-login{
+  width:100%;
+  padding-bottom:2px;
+}
+
+#altruja .tooltip{
+  margin:20px;
+  width:90%;
+  padding:10px;
+  background: #FFF;
+  text-align:left;
+
+  /*CSS3*/
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius: 3px;
+
+}
+
+#altruja .fb-login-box{
+  margin-top:10px;
+  }
+#altruja .fb-login-button{
+  width:100%;
+  }
+
+#altruja .tooltip-login{
+  width:100%;
+  padding-bottom:2px;
+    }
+
+#altruja .tooltip ul {
+ margin-bottom: 0px;
+}
+
+#altruja .hiddensubmit {
+height: 1px;
+width: 1px;
+position: absolute;
+top: -1000px;
+left: -1px;
+}
+
+#altruja .button-medium-bg{
+    position:relative;
+    width:150px;
+    height:30px;
+    background-color: #464646;
+    top:15px;
+    margin-bottom:20px;
+    }
+
+#altruja a.button-medium {
+  text-align:center;
+  width:150px;
+  height:30px;
+  display: block;
+  font-weight:normal;
+  text-decoration:none;
+  background: url("/images/2.0/button-sprite-150x30.png") top left no-repeat;
+  }
+
+#altruja a.button-medium:link, a.button-medium:visited{
+  color:#FFF;
+  text-decoration:none;
+  }
+#altruja a.button-medium:hover {
+  background: url("/images/2.0/button-sprite-150x30.png") bottom left no-repeat;
+  color:#EEE;
+  text-decoration:none;
+}
+
+
+#altruja .button-medium-text{
+  position:relative;
+  top:5px;
+  }
+
+#altruja .login-facebook{
+  padding-left:5px;
+  float:left;
+  width:80px;
+  height:70px;
+}
+
+#altruja .font-large{
+  font-size:20px;
+  font-weight: 500;
+}
+
+
+.wys ul,
+.wys br {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.wys li {
+  padding: 0;
+  margin: 0 0 0 2em;
+  list-style-type: disc;
+}
+
+/* list */
+
+.radio_list :after {
+  clear: both;
+}
+
+.radio_list {
+  margin: 0;
+}
+
+/* wide list */
+
+.radio_list div {
+  margin: 7px 0 7px 0;
+  white-space: nowrap;
+}
+
+.radio_list div.wide {
+  display: inline;
+  line-height: normal;
+  margin: 0;
+  width: 20%;
+}
+.radio_list div.wide label {
+  display: inline;
+  white-space: nowrap;
+}
+
+
+.submit-button {
+  border: 0;
+  text-align:center;
+  font-size:16px;
+  width:150px;
+  height:30px;
+  background: #464646 ;
+  margin: 10px auto 10px auto;
+  padding: 0;
+  color:#FFF;
+  outline:none;
+  display: block;
+  cursor: pointer;
+  font-family: 'Roboto',Arial, Helvetica, Sans;
+  border-radius: 3px;
+}
+
+.submit-button:hover, .submit-button:disabled, .submit-button.disabled {
+  background: #464646 linear-gradient(0deg, rgba(0,0,0,0.2) 33%, rgba(255,255,255,0.4) 100%);
+  color:#EEE;
+}
+
+.submit-button:disabled, .submit-button.disabled {
+  background-color: grey;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.largish {
+  font-size: 15px;
+}
+
+.flow-box legend {
+  color: #464646;
+  font-size: 18px;
+  display: block;
+  font-weight:bold;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+input.gender {
+  margin-right: 8px;
+}
+
+.label-toggle-by {
+  position:relative;
+  padding-right: 0.8em;
+}
+
+.label-toggle-by::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: auto 1px auto 2px;
+  content: "";
+  border: 0.4em solid transparent;
+  border-top-color: inherit;
+  position:absolute;
+  right: 0;
+  top: 4px;
+}
+
+.label-toggle-by.anim::after, .label-toggle-by.anim.slow::after {
+  transition-duration: 0.6s;
+  transition-property: transform;
+}
+.label-toggle-by.anim.fast::after {
+  transition-duration: 0.2s;
+}
+.label-toggle-by.on::after {
+  transform: rotate(90deg);
+}
+
+#altruja a#spendenseitenlink,
+#altruja a#spendenseitenlink:link,
+#altruja a#spendenseitenlink:visited,
+#altruja a#spendenseitenlink:hover {
+  font-size: 14px;
+  background: #464646;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  width: min(240px, 70vw);
+  margin: 0 auto;
+  height: 32px;
+  line-height: 30px;
+  display:block;
+  text-align: center;
+  clear:left;
+}
+
+#altruja .readonly_spende_betrag {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 3px;
+  line-height: 23px;
+}
+
+#altruja .betragbox .custom_betrag.input {
+  width: auto;
+  max-width: min(390px, 90vw - 5px);
+}
+
+ #altruja .successbox {
+   color: rgb(92, 155, 92);
+   border: 1px solid rgb(181, 216, 181);
+   background: rgb(241, 255, 241);
+ }
+ #altruja .successbox a,#altruja .successbox a:link, #altruja .successbox a:visited, #altruja .successbox span.link {
+   color: inherit;
+   text-decoration: underline;
+   font-weight: inherit;
+ }
+ #altruja .infobox {
+   color: rgb(101, 100, 129);
+   border: 1px #DEDDFC solid;
+   background: rgb(241, 239, 255);
+ }
+ #altruja .infobox a,#altruja .infobox a:link, #altruja .infobox a:visited, #altruja .infobox span.link {
+   color: inherit;
+   text-decoration: underline;
+   font-weight: inherit;
+ }
+#altruja .errorbox {
+   color: #933;
+   border: 1px solid #933;
+   font-weight: bold;
+   background: #ebd6d6;
+ }
+ #altruja .errorbox a,#altruja .errorbox a:link, #altruja .errorbox a:visited, #altruja .errorbox span.link {
+   color: inherit;
+   text-decoration: underline;
+   font-weight: inherit;
+ }
+#altruja .warningbox {
+   background: rgb(250, 225, 147);
+   color: rgb(96, 86, 57);
+   border: 1px solid rgb(222, 184, 105);
+ }
+ #altruja .warningbox a,#altruja .warningbox a:link, #altruja .warningbox a:visited, #altruja .warningbox span.link {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: inherit;
+ }
+
+ #altruja .successbox,
+ #altruja .infobox,
+ #altruja .errorbox,
+ #altruja .warningbox {
+   margin-bottom: 10px;
+   padding: 8px 16px;
+   font-weight: bold;
+   font-size: 14px;
+ }
+
+/*helper classes*/
+.mtop10{
+	margin-top:10px !important;
+}
+.mtop20{
+	margin-top:20px !important;
+}
+.mtop30{
+	margin-top:30px !important;
+}
+.mtop40{
+	margin-top:40px !important;
+}
+.mtop60{
+	margin-top:60px !important;
+}
+.mtop80{
+	margin-top:80px !important;
+}
+.fs16{
+	font-size:16px;
+}
+
+ /* intro form */
+
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.form-submit-button{
+	background:#464646;
+	color:#fff;
+	float:right;
+	padding:0.5rem 5rem;
+	margin-top:20px;
+	border:none;
+	border-radius:3px;
+	font-size:16px;
+}
+
+  .radio-inline .control__indicator:after{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #464646;
+}
+
+.empfaenger {
+ line-height: 54px;
+}
+
+.rightaligntext {
+ text-align: right;
+}
+
+.recurring {
+  clear: left;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+.recurring .font-small {
+  display:block;
+  margin-top: 7px;
+}
+
+.flow-right p.font-small {
+  min-height: 9px;
+}
+
+#firma,
+#address {
+  padding-top: 6px;
+}
+
+#altruja #spende-help-currency.currency,
+#altruja #spende_betrag {
+ text-align: center;
+ width: 70px;
+ font-size: 18px;
+}
+
+#allpaymethods {
+border:0;
+margin:0;
+padding:0;
+margin-bottom:8px;
+
+}
+
+#altruja .input[type=radio] {
+  height: initial;
+  height: 19px;
+  margin-bottom: 10px !important;
+ }
+
+#altruja {
+	max-width:600px;
+	margin:auto;
+	position:relative;
+}
+
+a {
+  color: black;
+}
+
+body #altruja {
+	font-size:15px;
+	font-family: 'Roboto','Arial', 'Helvetica', 'Tahoma';
+	color:#333;
+	margin-top:10px;
+	clear:both;
+	padding: 2px;
+}
+
+body #altruja.bigtext {
+ font-size: 20px;
+}
+
+b {
+font-weight: 700;
+}
+
+#altruja h1, #altruja h2, #altruja h3, #altruja h4, #altruja h5, #altruja h6 {
+	color: #464646;
+
+	margin:-5px 0 15px 0;
+	padding: 0px;
+
+	font-size:20px;
+	font-weight:500;
+	}
+#altruja h1 {
+	color:#333;
+	}
+/*NEU 2010-11-17 H3 näher definiert*/
+#altruja h3 {
+	font-size:15px;
+	margin-top:1px;
+}
+#altruja h4 {
+	color:#999;
+	font-size:12px;
+	}
+#altruja p {
+margin-top:5px;
+}
+
+#altruja.bigtext h3{
+ font-size: 22px;
+}
+
+#altruja a:link, #altruja a:visited {
+font-weight:normal;
+text-decoration:underline;
+color:#333;
+}
+#altruja a:hover{
+	text-decoration:none;
+	color:#464646;
+	}
+
+#altruja .tooltip {
+  border:1px solid #464646;
+}
+
+#altruja .errors {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*NEU 2010-11-17 ul & li44 näher definiert*/
+#altruja .center-projekt ul,
+#altruja .center-projekt li {
+	list-style-type: initial;
+	padding-left:0;
+	margin-left: 10px;
+}
+.center-projekt ul{
+	margin-bottom:40px;
+}
+.center-projekt form.type0 {
+	display:none;
+}
+
+ul, li{
+	list-style-type:none;
+	padding-left:0;
+	margin-bottom:10px;
+	}
+
+.box ul {
+	list-style-type: disc;
+	padding-left:40px;
+}
+
+.box li {
+	padding-left:0;
+	}
+
+@media all and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+	#altruja .center-projekt ul,
+	#altruja .center-projekt li {
+		list-style-type: none;
+	}
+	#altruja .center-projekt li:before {
+		content: '\25CF';
+		margin-right: 5px;
+		margin-left: -10px;
+	}
+}
+@supports (display: -ms-grid) {
+	#altruja .center-projekt ul,
+	#altruja .center-projekt li {
+		list-style-type: none;
+	}
+	#altruja .center-projekt li:before {
+		content: '\25CF';
+		margin-right: 5px;
+		margin-left: -10px;
+	}
+}
+
+/*NEU 2010-11-17 ul näher definiert*/
+
+#altruja .font-small{
+	font-size:13px;
+}
+
+#altruja.bigtext .font-small {
+  font-size: 16px;
+}
+
+#altruja .font-bold {
+font-weight: normal;
+}
+
+#altruja .font-colored{
+color:#464646;
+}
+#altruja .font-white{
+	color:#FFF;
+	}
+#altruja .font-light-grey{
+	color:#999;
+	}
+#altruja .font-dark-grey{
+	color:#666;
+	}
+
+/* GEÄNDERT 2010-11-17 a. vor der Klasse entfernt */
+#altruja .login-button {
+	height:20px;
+	display: block;
+	font-weight:bold;
+	text-decoration:none;
+  text-align: right;
+}
+
+/* NEU 2010-11-17 neue Klasse für den verlinkten Hintergrund */
+#altruja a.login-button{
+}
+#altruja a.login-button:link, #altruja  a.login-button:visited{
+	color:#464646;
+	text-decoration:none;
+	}
+#altruja a.login-button:hover{
+	color:#464646;
+	}
+
+#altruja .linked-box:link, #altruja .linked-box:visited {
+	text-decoration:none;
+}
+
+#altruja .linked-box:hover{
+	text-decoration:none;
+}
+
+#altruja .header {
+	padding-bottom:20px;
+	}
+#altruja .header-top{
+	float:right;
+}
+
+#altruja .header-bottom{
+	}
+
+#altruja .title {
+margin-bottom: 15px;
+}
+#altruja .title a:link {
+text-decoration: none;
+	}
+#altruja .social-bookmarks{
+	float:right;
+}
+
+#altruja .social-bookmarks img {
+    border-radius: 5px;
+}
+
+#altruja .social-bookmarks .googleplusbutton_container{
+	margin: 0px 3px;
+}
+
+#altruja .social-bookmarks img {
+	border: none;
+	height: 24px;
+	width: 24px;
+}
+
+#altruja .social-bookmarks .mailbox img {
+	border: none;
+	height: unset;
+	width: unset;
+}
+
+#altruja .social-bookmarks-large{
+	height:30px;
+	width:100%;
+	}
+
+#altruja .breadcrump{
+	float:left;
+	height:25px;
+	margin-top:5px;
+	}
+#altruja .login{
+	padding-bottom: 0px;
+	margin-top: 0px;
+	float:right;
+	padding-left:10px;
+	text-align:center;
+}
+
+#altruja .button-large-container{
+	width:100%;
+	margin: 20px 0 10px 0;
+}
+
+#altruja .button-large-bg{
+		overflow:hidden;
+		width:150px;
+		height:50px;
+		background-color: #464646;
+		margin:10px;
+		}
+
+#altruja .button-xlarge-bg{
+		overflow:hidden;
+		max-width:250px;
+		width: 100%;
+		height:50px;
+		background-color: #464646;
+		margin:10px;
+                zoom: 1;
+	}
+
+ #altruja input.button,
+ #altruja a.button:link,
+ #altruja a.button:hover,
+ #altruja a.button:visited,
+ #altruja a.button:active
+ {
+    margin: 1em 2px 0 0;
+    font-weight: bold;
+    border: 0;
+    font-size:11px;
+    padding: 2px;
+    color: white;
+  	background: url("/images/userbackend/button-sprite.png") repeat-x;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/userbackend/button-sprite.png', sizingMethod='crop');
+    _background: none;
+    background-color: #464646;
+  }
+
+#altruja input.hovering {
+    background-position: left -24px;
+}
+
+#altruja a.button-large {
+	text-align:center;
+	position:relative;
+	top: -5px;
+	left: -5px;
+	padding:14px 0 0 0;
+	width:160px;
+	height:46px;
+	display: block;
+	font-weight: 400;
+	text-decoration:none;
+	background: url("/images/2.0/button-sprite-160x60.png") top left no-repeat;
+}
+
+
+#altruja a.button-xlarge {
+color: #fff;
+	text-align:center;
+	position:relative;
+	top: -5px;
+	left: -5px;
+	padding:14px 0 0 0;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 100%;
+	height:46px;
+	display: block;
+	font-weight: 400;
+	text-decoration:none;
+	background: url("/images/2.0/button-sprite-260x60.png") top left no-repeat;
+	}
+
+
+#altruja a.button-large:link, #altruja a.button-large:visited,  a.button-xlarge:link, #altruja a.button-xlarge:visited{
+	color:#FFF;
+	text-decoration:none;
+	}
+
+#altruja a.button-large:hover{
+	background: url("/images/2.0/button-sprite-160x60.png") bottom left no-repeat;
+	color:#EEE;
+	text-decoration:none;
+}
+
+#altruja a.button-xlarge:hover{
+	background: url("/images/2.0/button-sprite-260x60.png") bottom left no-repeat;
+	color:#EEE;
+	text-decoration:none;
+}
+
+#altruja .box{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background: #FFF;
+  box-sizing: border-box;
+  padding: 6px;
+ position:relative;
+	}
+
+.box-action-link {
+position: absolute;
+right: 0px;
+top: 0px;
+background: #464646;
+height: 25px;
+min-width: 102px;
+color: #fff;
+text-align: center;
+line-height: 25px;
+padding: 0px 10px 0px 10px;
+border-top-right-radius: 3px;
+border-bottom-left-radius: 3px;
+font-weight: bold;
+}
+#altruja a.box-action-link:visited ,
+#altruja a.box-action-link:link {
+color: #fff;
+text-decoration:none;
+}
+
+#altruja .box-detail {
+	margin-top:23px;
+	min-height:240px;
+	}
+
+#altruja a.box:hover{
+	border: 1px dotted #464646;
+	}
+
+#altruja .left{
+	float:left;
+	min-height:80px;
+	max-height:600px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	min-width: 80px;
+	}
+
+#altruja .left.big{
+	min-height:110px;
+	min-width: 110px;
+}
+
+#altruja .wrap-teaserpic .left {
+	shape-outside: var(--teaserpic);
+	shape-margin: 6px;
+}
+
+#altruja .center-projekt, #altruja .center-aktion{
+	padding: 10px ;
+	max-width:700px;
+	min-height:95px;
+}
+
+#altruja .center-aktion,
+#altruja .mainbox .center-projekt {
+	margin-right: 110px
+}
+
+#altruja .mainbox.projektbox .center-projekt {
+margin-left: 0px;
+}
+
+#altruja h4.donation_page_by {
+font-size: 16px;
+}
+
+/* NEU 2010-11-17 neue Klasse für grauen Linie */
+#altruja .center-inactive{
+		border:none;
+	}
+#altruja .center-teaser{
+	position:relative;
+	margin-left:20px;
+	padding: 10px 20px 5px 0px;
+	max-width:700px;
+	min-height:45px;
+	max-height:47px;
+	overflow:hidden;
+}
+#altruja .center-teaser h2{
+	margin-top:0px;
+	}
+#altruja .center-teaser h2:hover{
+	text-decoration:underline;
+	}
+
+.neweventbuttonspace {
+  float:right;
+  height: 18px;
+  width: 200px;
+}
+
+#altruja .rooftop{
+  height: 0px;
+}
+#altruja .mainbox  {
+  position: relative;
+  background-image:none;
+}
+#altruja #barometer {
+  min-height:40px;
+  width: 100%;
+}
+#altruja .right {
+  float: right;
+  width: 110px;
+  min-height: 40px;
+  text-align: center;
+  position: relative;
+  margin:0;
+  padding:0;
+  margin-left: 10px;
+}
+#altruja .facts{
+  margin-top:30px;
+}
+
+#altruja .barometer{
+  margin:14px 0 0 0;
+  text-align:left;
+  height: 100%;
+}
+
+#altruja .barometer-bg{
+	background: url("/images/2.0/barometer.png") top left no-repeat;
+	background-color: #464646;
+	width:27px;
+	border:1px solid #999;
+	position:relative;
+  left: 31px;
+  -webkit-border-radius: 5px;
+}
+#altruja .barometer-stand{
+	height:34px;
+	width:100%;
+	background: #FFF url("/images/2.0/box-background.png") bottom left repeat-x;
+  position:relative;
+	}
+#altruja .spendenstand{
+	margin:8px 0 0 0;
+}
+
+#altruja .donated-for{
+	font-size:10px;
+	color:#666;
+	margin:10px 0 5px 0;
+}
+#altruja .run-time{
+	padding-top: 8px;
+	text-align:center;
+	width:100px;
+}
+#altruja .teaserpic{
+	padding: 0px;
+	border: none;
+	margin:0 10px 0 0;
+	text-align:center;
+}
+
+#altruja .teaserpic img {
+	border-radius: 3px;
+	max-height:170px;
+}
+
+#altruja .arrow-bottom-large{
+	width:90px;
+	height:80px;
+	background-image: url("/images/2.0/arrow-bottom-large.png");
+	background-color: #464646;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+#altruja .barometer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #464646;
+  width: 90px;
+  background-image: url("/images/2.0/arrow-pillar.png");
+}
+
+#altruja .arrow-bottom-small{
+	margin-top:-60px;
+	width:90px;
+	height:60px;
+	background: url("/images/2.0/arrow-bottom-large.png") top left no-repeat;
+	background-color: #464646;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+/* NEU 2010-11-17 neue Klasse für grauen Hintergrund */
+#altruja .arrow-inactive{
+	background-color: #CCC;
+	}
+#altruja .spenden-bottom-small{
+	text-align:center;
+	float:right;
+	margin-top:-25px;
+	margin-right:-1px;
+	width:90px;
+	height:25px;
+  z-index: 1;
+  position: relative;
+  padding-right: 12px;
+}
+
+#altruja .arrow-bottom-small .font-small, #altruja .arrow-bottom-large .font-small{
+	line-height:5px;
+}
+#altruja .arrow-bottom-large .content{
+	text-align:center;
+	margin-top:32px;
+	}
+#altruja .arrow-bottom-small .content {
+		text-align:center;
+		margin-top:24px;
+	}
+
+
+/* STYLES PROJEKT-TEASER SMALL*/
+
+#altruja .teaser-box-projekt	{
+height:62px;
+padding: 0px;
+}
+
+#altruja .teaserbox-pic{
+	float:left;
+	width:50px;
+	height:50px;
+	margin: 5px 0 0 5px;
+	background: url('/images/2.0/teaser-pic-spendenaktion.png') top left no-repeat;
+	}
+#altruja .teaserbox-headline{
+	float:left;
+	padding-top:24px;
+	margin-left:10px;
+	}
+
+#altruja .teaserbox-button-box{
+
+	}
+#altruja a.teaserbox-button{
+	vertical-align: text-bottom;
+	text-align:center;
+	float:right;
+	padding-top:0px;
+	width:90px;
+	height:60px;
+	display: block;
+	color:#FFF;
+	text-decoration:none;
+	background-color: #464646;
+	}
+#altruja a.teaserbox-button:link, #altruja a.teaserbox-button:visited{
+	color:#FFF;
+	text-decoration:none;
+	}
+
+#altruja a.teaserbox-button:hover{
+	background: url("/images/2.0/button-sprite-90x60.png") bottom left no-repeat;
+	background-color: #464646;
+	color:#EEE;
+	}
+#altruja .button-text{
+	position:relative;
+	top:15px;
+	}
+
+/* STYLES SPENDEN-TEASER SMALL*/
+
+#altruja .teaser-box-spender	{
+	margin-top:20px;
+	min-height:60px;
+	/*border-left-width: 5px;
+	border-left-color: #464646;
+*/
+}
+#altruja .spender-pic{
+	display:none;
+}
+#altruja .spender-text{
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:0px;
+	min-width:120px;
+	max-width:700px;
+	margin-right:90px;
+	}
+#altruja .spender-infos{
+	text-align:center;
+	float:right;
+	height:60px;
+	padding-right:10px;
+	}
+
+/* STYLES FOOTER*/
+#altruja .footer-box{
+	height:32px;
+	margin-top:10px;
+	padding-top:5px;
+	border: none;
+	}
+
+#altruja a.alle-spender{
+	float:left;
+	margin-left:5px;
+	width:140px;
+	padding-top:3px;
+	height:17px;
+	background: url("/images/2.0/button-sprite-1x40.png") top left repeat-x;
+	background-color:#464646;
+	text-align:center;
+		}
+
+#altruja a.alle-spender:hover, #altruja  .alle-spender:visited, #altruja .alle-spender:link{
+		text-decoration:none;
+		color:#FFF;
+	}
+#altruja a.alle-spender:hover{
+	background: url("/images/2.0/button-sprite-1x40.png") bottom left repeat-x;
+		background-color:#464646;
+		text-decoration:none;
+		color:#EEE;
+		}
+
+#altruja .button-footer{
+	position:relative;
+	top:3px;
+	}
+
+#altruja .button-center-box{
+/*	margin-left:120px;*/
+	height:20px;
+	margin-bottom:3px;
+
+}
+/* GEÄNDERT 2010-11-17 a. vor der Klasse entfernt */
+#altruja .button-center{
+	float:left;
+	width:100px;
+	padding-top:2px;
+	background-color:#464646;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	margin-right:10px;
+	padding:5px;
+	border-radius:2px;
+		}
+/* NEU 2010-11-17 neue Klasse für den verlinkten Hintergrund */
+#altruja a.button-center{
+		background-color:#464646;
+}
+/* NEU 2010-11-17 Klassen umgestellt und a.button-center hinzugefügt*/
+#altruja a.alle-spender:link, #altruja a.alle-spender:visited, #altruja a.button-center{
+	color:#FFF;
+	text-decoration:none;
+	}
+
+#altruja a.button-center:hover{
+	background: url("/images/2.0/button-sprite-1x40.png") bottom left repeat-x;
+		background-color:#464646;
+		text-decoration:none;
+		color:#EEE;
+		}
+
+/* STYLES TEASER PROJEKT*/
+#altruja .teaser-box-projekte{
+	min-height:110px;
+	margin-top:10px;
+/*	border-left-width: 5px;
+	border-left-color: #464646;
+*/
+
+	}
+
+
+#altruja .teaser-box-projekte.root-box{
+	border-left-width: 1px;
+	border-left-color: #ccc;
+
+
+	}
+
+
+
+/* STYLES TEASER SPENDENAKTION*/
+#altruja .teaser-box-spendenaktion{
+	margin-top:23px;
+	min-height:110px;
+	border-left-width: 5px;
+	border-left-color: #464646;
+
+
+}
+/* VERTIKALER TRENNER */
+#altruja .divider{
+	margin-top:15px;
+	margin-bottom:-10px;
+	font-size:14px;
+	}
+/* AKTION ANLEGEN */
+#altruja .flow-box {
+	margin-top:10px;
+	min-height:50px;
+}
+
+#altruja .flow-status-box{
+	width:100%;
+	margin-top:7px;
+	margin-bottom: 5px;
+	text-align:right;
+}
+#altruja .flow-status-box .content{
+	position:relative;
+	margin-right:10px;
+}
+#altruja .flow-element-box{
+	min-height:120px;
+}
+
+#altruja .center-flow{
+	margin-left:10px;
+	margin-right:174px;
+	padding: 10px 3px 15px 0px;
+	max-width:700px;
+	min-height:60px;
+	max-height:1000px;
+	clear:left;
+}
+
+#altruja .flow-right{
+	float:right;
+	clear:right;
+	width:165px;
+	min-height:50px;
+	max-height:600px;
+	margin-top:10px;
+	padding-right: 4px;
+	color: #666;
+}
+
+#altruja #spende-help-submit {
+	margin-top: -80px;
+}
+
+#altruja .nonspacing {
+  min-height: 0;
+}
+
+#altruja .tiny {
+  min-height: 20px;
+}
+
+#altruja .smooth {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#altruja .form-box-small{
+	float:left;
+	min-width: 170px;
+	max-width: 350px;
+	max-width: min(350px, 90vw);
+	width:100%;
+}
+#altruja .form-box-wide{
+	width:100%;
+	padding-top:5px;
+}
+
+#altruja .input{
+	width:100%;
+	width: calc(100% - 5px);
+	font-size:15px;
+	font-family: 'Roboto','Arial', 'Helvetica', 'Tahoma';
+	height:42px;
+	font-weight: 400;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	padding: 7px 2px 7px 7px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+	box-sizing: border-box;
+}
+
+#altruja .input.radio {
+width: auto;
+display:block;
+float:left;
+clear:left;
+margin-bottom: 20px;
+margin-right: 10px;
+}
+
+#altruja .betragbox .radio-inline {
+display: block;
+}
+
+.radio-inline {
+display: inline-block;
+}
+
+label.radio-inline {
+ margin-right: 10px;
+}
+
+#altruja select.input {
+	height: auto;
+}
+
+#altruja select::-ms-expand {
+  border: none;
+  background: none;
+  color: #ccc;
+}
+#altruja input::-ms-clear {
+  display: none;
+}
+
+#altruja.bigtext .input {
+font-size: 20px;
+}
+
+#altruja .textarea{
+	width:100%;
+	width: calc(100% - 5px);
+	height:90px;
+	font-size:14px;
+	font-family: 'Roboto','Arial', 'Helvetica', 'Tahoma';
+	padding:5px;
+	font-weight: 400;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 4px;
+
+}
+#altruja .form-element-box-small{
+	float:left;
+	min-height:60px;
+	width:45%;
+	margin-right:5%;
+}
+
+#altruja .form-element-box-large{
+	padding-bottom: 20px;
+}
+
+#altruja .form-element-box-medium{
+	float:left;
+	/* height:60px; */
+	/* width:70%; */
+	margin-right:5%;
+}
+
+#altruja .form-element-box-medium.spendenempfaenger-container {
+	float:left;
+	/* height:60px; */
+	width:220px;
+	margin-right:0 !important;
+	padding-bottom: 20px;
+}
+#altruja .form-element-box-medium.spendenempfaenger-container span.empfaenger {
+	line-height:16px !important;
+}
+#altruja .form-element-box-medium.spendenempfaenger-container .container-label {
+	padding-bottom: 16px;
+}
+#altruja .form-element-box-tiny{
+	float:left;
+	/* width:20%; */
+	margin-right:5%;
+}
+#altruja .betragbox.form-element-box-tiny {
+	float:left;
+	/* width:100px; */
+	/* padding-right: 10px; */
+	margin-right:0 !important;
+	padding-bottom: 10px;
+}
+#altruja .form-element-box-tiny .currency{
+	margin-left: 3px;
+	font-size: 14px;
+}
+#altruja .checkbox-area{
+	padding-top:5px;
+	width:95%;
+	border:1px solid #999999;
+	line-height: 25px;
+}
+#altruja .checkbox{
+	float:left;
+	width:24px;
+	min-height:10px;
+	max-height:600px;
+	margin-bottom:6px;
+}
+#altruja .checkBoxText{
+	margin-top:4px;
+	margin-bottom:6px;
+	margin-left:26px;
+	min-width:80px;
+	max-width:600px;
+}
+
+#altruja .button-medium-bg{
+		position:relative;
+		width:150px;
+		height:30px;
+		background-color: #464646;
+		top:15px;
+		margin-bottom:20px;
+		}
+
+#altruja a.button-medium {
+	text-align:center;
+	width:150px;
+	height:30px;
+	display: block;
+	font-weight:normal;
+	text-decoration:none;
+	background: url("/images/2.0/button-sprite-150x30.png") top left no-repeat;
+	}
+
+#altruja a.button-medium:link, #altruja a.button-medium:visited{
+	color:#FFF;
+	text-decoration:none;
+	}
+#altruja a.button-medium:hover {
+	background: url("/images/2.0/button-sprite-150x30.png") bottom left no-repeat;
+	color:#EEE;
+	text-decoration:none;
+}
+#altruja .button-medium-text{
+	position:relative;
+	top:5px;
+	}
+#altruja .login-facebook{
+	padding-left:5px;
+	float:left;
+	width:80px;
+	height:70px;
+}
+
+#altruja .h2-zentriert{
+	margin-top:16px;
+}
+
+#altruja .h2-zentriert h2:hover{
+	text-decoration:underline;}
+
+#altruja .iframe{
+	width:100%;
+	height:auto;
+	border:none;
+	overflow:hidden;
+	position: relative;
+	z-index: 10;
+	}
+#altruja .secure-area{
+		border:3px solid #464646;
+		width:95%;
+	}
+
+#altruja .secure-area-header{
+	height:20px;
+	width:100%;
+	background: url("/images/2.0/lock.gif") top right no-repeat;
+	background-color:#464646;
+	}
+#altruja .zitat{
+	font-family: Georgia, Times;
+	font-size:16px;
+	}
+#altruja .zitat i{
+	font-style:italic;
+	}
+
+#sizejs {
+	display:none;
+}
+
+.pagination {
+float:left;
+padding:0px;
+padding-left: 20px;
+margin: 0px;
+line-height: 20px;
+font-weight: bold;
+}
+
+#altruja a.pagelink:link, #altruja  a.pagelink:visited{
+ text-decoration:none;
+	color:#464646;
+ font-weight: bold;
+}
+
+#altruja .charitypic, #altruja .charitypic a:link, #altruja .charitypic a:visited {
+background: none;
+font-weight: bold;
+color:#464646;
+font-size: 13px;
+}
+
+
+#altruja .charitypic {
+  width: 100px;
+  min-height: 125px;
+  height: auto;
+}
+
+#altruja .charitypic img {
+  width: 100px;
+  height: 100px;
+}
+
+/* NEU 2010-11-16 */
+#altruja .teaser-pic-spendenaktion{
+	height:100px;
+	width:100px;
+	float:left;
+	margin-right:10px;
+	background:url("/images/2.0/default-spendenaktion.png") top left no-repeat;
+	}
+#altruja .button-eigene-aktion{
+	float:left;
+	height:17px;
+	width:100px;
+	background: url("/images/2.0/button-sprite-1x40.png")top left repeat-x;
+	background-color:#464646;
+	text-align:center;
+	padding-top:3px;
+	color:#FFF;
+	}
+#altruja .button-eigene-aktion:hover{
+	background: url("/images/2.0/button-sprite-1x40.png")bottom left repeat-x;
+	background-color:#464646;
+	color:#FFF;
+	}
+#altruja .button-eigene-aktion:link, #altruja .button-eigene-aktion:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+/*GEÄNDERT 2010-11-17 - Padding von 5px auf 0px gesetzt*/
+#altruja .link-colored:link, #altruja .link-colored:visited, #altruja .link-colored:hover {
+	color: #464646;
+	padding-left:0px;
+	}
+
+#altruja .donation-slider .slider::-moz-range-thumb {
+	background-color: #464646;
+}
+#altruja .donation-slider .slider::-webkit-slider-thumb {
+	background-color: #464646;
+}
+
+#altruja hr {
+	border:none;
+	border-color:#FFF;
+	border-top: 1px dotted #464646;
+	height:1px;
+	margin-right:5px;
+	}
+#altruja .alert {
+	margin:20px 0 20px 0;
+	border: 2px solid #464646;
+	padding:10px;
+	background:url("/images/2.0/alert-bg.png") bottom right no-repeat;
+	background-color:#FFF;
+	font-weight:bold;
+	}
+
+#altruja .alert-alternativ {
+	margin:20px 0 20px 0;
+	border: 3px solid #464646;
+	padding:10px;
+	background: #FFF url("/images/2.0/box-background.png") bottom left repeat-x;
+	background-color:#FFF;
+	font-weight:bold;
+	}
+.bg-light-grey{
+	background-color:#666;
+	}
+
+/* NEU 2010-11-17 */
+
+
+#altruja img {
+border:none;
+}
+
+
+/* Preview */
+
+div.preview {
+  margin: 0 0 1em 0;
+  top: -7px;
+  left: 0;
+  width: 100%;
+  background-color: #fcfcfc;
+  border-bottom: 1px #999 dotted;
+  border-top: 1px #999 dotted;
+  font-size: 16px;
+  font-family: Arial, Sans;
+  text-align: center;
+}
+
+#altruja div.preview em {
+  font-weight: bold;
+  font-style: normal;
+  color: red;
+}
+
+
+/*
+Email link button
+*/
+
+.emailbutton_container {
+}
+
+.maillink {
+}
+
+.mailbox {
+	display: none;
+	top: 25px;
+	box-shadow: rgba(137, 131, 131, 0.4) 1px 1px 9px 3px;
+	position: absolute;
+	z-index: 10000;
+}
+
+.mailboxtitle {
+  height: 16px;
+  background: url('/images/mailbox/headline_bg.png') repeat-x;
+  margin-bottom: 7px;
+  font-family: Helvertica, sans-serif;
+  font-size: 11px;
+  padding: 0px 3px;
+}
+
+.mailboxbg {
+	background-color: #fff;
+	padding: 5px;
+}
+
+iframe#qpay {
+  border:none;
+  width: 100%;
+  overflow:hidden;
+  position: relative;
+  z-index: 10;
+}
+
+.feedback_suggestion #altruja #feedback_feedback {
+  height: 150px;
+  width: 97%;
+}
+
+.feedback_suggestion #altruja {
+  margin-top: 5px;
+}
+
+#altruja .teaserbox-button-box a {
+  font-size: 12px;
+}
+
+#altruja #language a {
+  color:#999;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 2px;
+}
+
+#altruja #language a:hover {
+  text-decoration: underline;
+}
+
+#altruja #language {
+  float: right;
+  z-index: 30;
+  bottom: 5px;
+  margin-left: 10px;
+}
+
+/*
+  Give a few unimportant properties for automatic tests
+*/
+#altruja #autotest {
+  display: none;
+  font-size: 122px;
+}
+
+.clear { clear: both; }
+br.clear { height: 0; }
+
+#footermenu li {
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+#altruja a.button {
+  margin: 1em 2px 0 0;
+  font-weight: bold;
+  border: 0;
+  font-size:11px;
+  padding: 2px;
+  color: white;
+	background: url("/images/userbackend/button-sprite.png") repeat-x;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/userbackend/button-sprite.png', sizingMethod='crop');
+  _background: none;
+  background-color: #464646;
+  display: inline-block;
+  height: 21px;
+  text-decoration: none;
+  line-height: 21px;
+  padding: 0 3px;
+  margin: 0;
+}
+
+#altruja a.button:hover {
+  background-position: left -24px;
+}
+
+#altruja #optile {
+	height: 330px;
+  width: 400px;
+}
+
+#altruja #optile-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+ul.radio_list {
+  margin-bottom:inherit;
+}
+
+#altruja form.charityform div.checkbox-area {
+  position: relative;
+}
+
+#altruja form.charityform div.agblabel {
+  position: absolute;
+  top: 6px;
+  left: 26px;
+  line-height: 19px;
+}
+
+
+body.event_show #altruja .teaserbox-button .button-text {
+  top: 5px
+}
+
+#altruja #chunk-event-intro {
+  position: relative;
+}
+
+#altruja .event_text_counter {
+  width: 93%;
+  height: 18px;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  text-align: right;
+  font-size: 11px;
+  color:#666;
+}
+#altruja #updateme .too_short,
+#altruja #updateme .cut_off {
+  color: red;
+}
+
+#altruja .match {
+  background-color:#464646;
+  background-image: url("/images/2.0/box-background-tns.png");
+  border: 1px #464646 dotted;
+}
+
+
+
+#altruja .box-detail {
+  margin-top: 10px;
+	border-left-width: 5px;
+	border-left-color: #464646;
+
+
+   }
+#altruja .box-detail.projektbox {
+border-left-width: 1px;
+border-left-color: #ccc;
+}
+
+#altruja .header {
+    padding-bottom:0;
+   }
+
+
+.password-meter-box {
+  width: 100%;
+  height: 0;
+  position: relative;
+  display: none;
+}
+
+#altruja .password-meter {
+  position: absolute;
+  display: none;
+  top: 18px;
+  right: -15px;
+}
+
+#sslinfo {
+ float: left;
+ width: 50%;
+ font-size: 12px;
+}
+
+#sslinfo a {
+ font-size: 10px;
+}
+
+#sslexplain {
+ clear: both;
+ padding: 7px;
+ border: 1px black dotted;
+ display: none;
+ background: #fff;
+ font-size: 12px;
+ margin: 0 0 10px 0;
+}
+
+#sslexplain img.secure {
+  display: block;
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+#sslexplain a.secure {
+  display: block;
+  float: left;
+  margin: 0 10px 0px 0;
+  color: #0a0;
+  font-size: 21px;
+  line-height: 31px;
+  text-decoration: none;
+}
+
+#sslexplain a.close {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+#altruja #gender_box {
+  margin-bottom: 5px;
+}
+
+#altruja #spendeform .custom-text {
+  min-height: 22px;
+  /* max-width: 304px; */
+	width: 100%;
+	width:calc(100% - 5px);
+}
+
+.testmode {
+  padding:10px;
+  border: 3px solid #333;
+}
+.testmode span {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+#newsletter input {
+	margin-bottom: 20px;
+	float:  left;
+	margin-right: 7px;
+}
+
+#bigtext {
+	display:none;
+}
+
+fieldset, legend {
+
+border: none;
+margin: 0;
+padding: 0;
+display: inline;
+
+}
+
+fieldset {
+min-width: 100%;
+}
+
+#altruja strong.charity {
+  white-space: nowrap;
+}
+
+#altruja #submitbutton {
+  margin: 0 auto;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}
+
+.hidden-submit {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border: none;
+  padding: 0px;
+}
+
+ul.error_list {
+  padding: 0;
+  margin: 0;
+  color: red;
+}
+
+.hidden-submit {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -1000px;
+}
+
+/* radio */
+
+.radio_list li {
+  margin-bottom: 0;
+}
+
+.radio_list_inline {
+  margin-top: 3px;
+}
+
+.radio_list_inline li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 4px;
+}
+.radio_list_inline li:first-child {
+  margin-left: 0;
+}
+
+#paymentselectform .radio_list li, .paymentselectform .radio_list li {
+  margin-bottom: inherit;
+}
+
+body.keys :focus {
+  outline: medium solid #464646;
+}
+
+span.msg_by {
+  font-weight: normal;
+}
+
+#altruja a#read_details:link,
+#altruja a#read_details:active,
+#altruja a#read_details:hover,
+#altruja a#read_details:visited {
+  font-size: 14px;
+  color: #464646;
+}
+
+/* miniform */
+
+#altruja .spende-miniform {
+  text-align: left;
+  margin-bottom: 20px;
+  width:250px;
+  clear: left;
+  margin: 0px auto;
+}
+#altruja .spende-miniform .inputs {
+  position: relative;
+  float: left;
+}
+#altruja .spende-miniform .inputs label {
+  float: left;
+  font-size: 15px;
+  text-align: left;
+  margin: 7px 8px 0 0;
+  font-style: italic;
+}
+#altruja .spende-miniform .currency {
+  position: absolute;
+  z-index: 1;
+  display:block;
+  left: 4px;
+  top: 0;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  float: left;
+  line-height: 28px;
+  margin-right: 0px;
+  text-align: left;
+  width: 48px;
+}
+#altruja .spende-miniform input[type=text] {
+  font-size: 20px;
+  margin: 0 0 3px 0;
+font-size: 18px;
+border: 1px solid #ccc;
+margin: 0 0 3px 0;
+border-radius: 5px 0 0 5px;
+height: 28px;
+padding-right: 10px;
+}
+#altruja .spende-miniform input.email {
+  font-size: 18px;
+  width: 100%;
+}
+#altruja .spende-miniform .betrag {
+  text-align: right;
+  padding: 0 2px 0 42px;
+  z-index: 0;
+  margin: 3px 6px 6px 0;
+  width: 55px;
+}
+
+#altruja .spende-miniform .submit-button {
+  display: block;
+  float: left;
+  width: 135px;
+  border-radius:0  5px 5px 0;
+  margin:0 auto;
+}
+
+.side-explain {
+  margin-bottom: -1000px;
+}
+
+#altruja form input[type=checkbox] {
+  vertical-align: 0px;
+  display: block;
+  position: relative;
+  float: left;
+  bottom: 2px;
+}
+
+#altruja form input[type=checkbox] + label {
+  display: block;
+  margin-left: 23px;
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+
+#altruja form .not-for-returning {
+  min-height: 0;
+}
+#altruja form .for-returning {
+  min-height: 0;
+}
+
+/* TODO: remove */
+
+#altruja .flow-box.tiny,
+#altruja .center-flow.tiny,
+#altruja .flow-element-box.tiny {
+  min-height: 20px;
+}
+
+#altruja .flow-box.smooth,
+#altruja .center-flow.smooth,
+#altruja .form-element-box-large.smooth,
+#altruja .flow-element-box.smooth {
+  padding-top: 0;
+  padding-bottom: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#altruja .payment_form .form-row {
+    display: inline-block;
+    width: 100%;
+    clear: left;
+}
+
+#altruja .payment_form .input {
+    box-sizing: border-box;
+    width: 55%;
+}
+
+#altruja .payment_form .submit-button {
+    margin-top: 20px;
+}
+
+#altruja .payment_form label {
+  display: block;
+  float: left;
+  width: 122px;
+  max-width: 35%;
+  padding-right: 5px;
+}
+
+#altruja .payment_form input[type=text], #altruja .payment_form .input_text {
+  display: block;
+  float: left;
+  min-width: 150px;
+  width: 55%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+
+#altruja .payment_form .form-row label {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 42px;
+    margin-top: 4px;
+}
+
+#altruja .payment_form input[type=text][readonly] {
+	background: #ccc;
+	border-style: solid;
+	border-color: #ccc;
+}
+
+#altruja .payment_form input[type=checkbox] {
+  display: block;
+  float: left;
+  clear: left;
+  margin-right: 5px;
+}
+
+#altruja .payment_form input[type=checkbox] + label {
+  float: none;
+  display: block;
+  height: auto;
+  margin-top: 0;
+  width: auto;
+  max-width: 300px;
+  margin-right: 0;
+}
+
+#altruja .payment_form select {
+  width: 50%;
+  max-width: 300px;
+}
+
+#altruja .payment_form select.empty {
+  color: grey;
+}
+#altruja .payment_form select.empty option {
+  color: black;
+}
+
+#altruja .payment_form input#name, #altruja .payment_form label[for=name] {
+  margin-bottom: 20px;
+}
+
+#altruja .payment_form input#bic, #altruja .payment_form label[for=bic] {
+  display:none;
+}
+
+#altruja .payment_form .cc_year, #altruja .payment_form .cc_cvv {
+  min-width: auto;
+  width: 90px;
+}
+
+#altruja .payment_form .cc_month {
+  min-width: auto;
+  width: 70px;
+}
+
+#altruja .youtubeframe {
+  margin-bottom: 10px;
+  margin-right:10px;
+  z-index: 100;
+  margin-top: 10px;
+}
+
+.twitterbutton_container, .whatsappbutton_container, .emailbutton_container, .facebookbutton_container, .linkedinbutton_container {
+  float:right;
+  margin-right: 10px;
+}
+
+.facebookbutton_container {
+  margin-right: 0;
+}
+
+#paymentselectform, .paymentselectform {
+  position: relative;
+  margin-bottom: 1em;
+  min-height: 250px;
+}
+
+#paymentselectform label, .paymentselectform label {
+  display: block;
+  margin: 7px 0px
+}
+
+#paymentselectform label input, .paymentselectform label input {
+  position: relative;
+  top: 1px;
+}
+
+#paymentselectform .icon img, .paymentselectform .icon img {
+  margin: -5px 0;
+}
+
+#paymentselectform .icon, .paymentselectform .icon {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  left: -18px;
+}
+
+#paymentselectform .text, .paymentselectform .text {
+  width: 138px;
+  display: inline-block;
+}
+
+#altruja table.payment_bt {
+width: 80%;
+font-size: 120%;
+background: white;
+border: 1px black solid;
+padding: 8px;
+margin: 0 auto;
+}
+#altruja table.payment_bt td {
+text-align: left;
+vertical-align: top;
+}
+#altruja table.payment_bt th {
+text-align: left;
+width: 44%;
+vertical-align: top;
+}
+
+#altruja div.payment_bt {
+margin: 0;
+padding: 0;
+}
+#altruja div.payment_bt {
+margin: 0 auto 15px auto;
+}
+
+#altruja table.payment_bt i {
+display: block;
+}
+
+#altruja table.payment_bt_int th {
+text-align: left;
+}
+
+#altruja table.payment_bt_int td,
+#altruja table.payment_bt_int th {
+padding: 2px 6px 2px 0;
+}
+
+/* IE8 */
+
+#altruja .recurring label {
+  display: block;
+  float: left;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+
+#altruja .progress {
+white-space: nowrap;
+padding-left: 3px;
+padding-right: 3px;
+}
+
+#altruja #customfield1 .input.radio ,
+#altruja #customfield2 .input.radio ,
+#altruja #customfield3 .input.radio {
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+#altruja #customfield1 .radio-inline ,
+#altruja #customfield2 .radio-inline ,
+#altruja #customfield3 .radio-inline {
+width: 100%;
+line-height: 30px;
+}
+
+#altruja #spende-help-select {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#altruja a.compliance {
+  display: block;
+  margin-top: 10px;
+}
+#altruja a.compliance img {
+  max-width: 100%;
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#altruja .picture-upload{
+	height:100px;
+	display: grid;
+	margin-top:10px;
+	cursor:pointer;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+#altruja .picture-upload.text-center, #altruja .picture-upload .text-center {
+		text-align: center;
+}
+#altruja .picture-upload .pic-manage{
+	height:30px;
+	background:#414141;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	color:#fff;
+	font-size:16px;
+	position:relative;
+	top:-30px;
+	display:none;
+}
+.dz-cropper-editor {
+    position: fixed;
+    left:0; right: 0; top: 0; bottom: 0;
+    z-index: 1000;
+    background-color: black;
+}
+.dz-cropper-toolbars {
+    position: absolute;
+    left:10px; top: 10px;
+    z-index: 1001;
+    background: none;
+}
+.dz-cropper-container {
+    flex-direction: column;
+}
+
+.dz-cropper-container > * {
+    margin-bottom: 10px;
+}
+.dz-details{
+	height:100px;
+}
+.dz-details img{
+	max-height:100px;
+	max-width:100%;
+}
+.dz-message{
+	color: #313131;
+	font-size:16px;
+	align-self: center;
+}
+
+.dz-message span{
+	margin-left:10px;
+}
+.dz-filename, .dz-size{
+	display:none;
+}
+
+.pikaday__container {
+  width: 100%;
+}
+
+#giftform{
+	margin: 0 10px;
+}
+
+#giftform input, #giftform textarea{
+	width: 100%;
+}
+#giftform textarea, #altruja .textarea {
+	resize: vertical;
+	min-height: 30px;
+	max-height: 70vh;
+}
+/* hides the spendenquittungs archive option from the paymod20017Success.php*/
+.quittungsInspectorLink {
+	display: none !important;
+}
+/* hides the spendenquittungs archive option from the paymod20017Success.php*/
+.quittungsCreatorLink {
+	display: none !important;
+}
+
+
+#mailshareform #share_message {
+	height: 150px;
+	min-height: 100%;
+	max-height: 70vh;
+	min-width: 97%;
+	max-width: 120%;
+	max-width: calc(100% + 170px);
+}
+
+.notification-creditcard {
+	font-weight: bold;
+}
+
+@media (max-width: 549px) {
+  .spende_optile #altruja .flow-right,
+  .spende_qpay #altruja .flow-right {
+    display: none;
+  }
+}
+
+@media (max-width: 449px) {
+
+	#altruja .teaserpic img {max-width: 190px;}
+
+	#altruja .flow-right {
+		float: none;
+		clear: both;
+		width: auto;
+		min-height: auto;
+		margin: 15px 0 5px 10px;
+		padding-right: 0;
+	}
+	#altruja #spende-help-select {
+		display: block;
+	}
+	#altruja #spende-help-submit {
+		margin-top: 0;
+	}
+	#altruja .submit-button-flow {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	#altruja .flow-right .compliance {
+		float: right;
+		margin-top: 0;
+		margin-right: 2px;
+		width: 67px;
+	}
+
+	.spende_new_quick #allpaymethods,
+	.spende_new_quickshop #allpaymethods {
+		display: none;
+	}
+
+	.user_create #altruja .center-flow,
+	.user_new #altruja .center-flow,
+	.spende_danke2 #altruja .center-flow {
+		margin-right: 10px;
+		border-right: 0;
+	}
+
+	.spende_pay #altruja .center-projekt,
+	.spende_pay #altruja .center-aktion,
+	.spende_submit #altruja .center-projekt,
+	.spende_submit #altruja .center-aktion,
+	.user_create #altruja .center-projekt,
+	.user_create #altruja .center-aktion,
+	.user_new #altruja .center-projekt,
+	.user_new #altruja .center-aktion,
+	.user_new #altruja .center-projekt,
+	.user_new #altruja .center-aktion,
+	.event_show #altruja .center-projekt,
+	.event_show #altruja .center-aktion,
+	.event_show #altruja .center-projekt,
+	.event_show #altruja .center-aktion,
+	.spende_danke #altruja .center-projekt,
+	.spende_danke  #altruja .center-aktion {
+		margin-left: 10px;
+		border-right: none;
+	}
+
+	#altruja .center-aktion,
+	#altruja .mainbox .center-projekt {
+		margin-right: 0px;
+	}
+
+	.embedded.spende_pay #altruja .center-projekt,
+	.embedded.spende_pay #altruja .center-aktion,
+	.embedded.spende_submit #altruja .center-projekt,
+	.embedded.spende_submit #altruja .center-aktion,
+	.embedded.user_create #altruja .center-projekt,
+	.embedded.user_create #altruja .center-aktion,
+	.embedded.user_new #altruja .center-projekt,
+	.embedded.user_new #altruja .center-aktion,
+	.embedded.user_new #altruja .center-projekt,
+	.embedded.user_new #altruja .center-aktion,
+	.embedded.event_show #altruja .center-projekt,
+	.embedded.event_show #altruja .center-aktion,
+	.embedded.event_show #altruja .center-projekt,
+	.embedded.event_show #altruja .center-aktion,
+	.embedded.spende_danke2 #altruja .center-projekt,
+	.embedded.spende_danke2  #altruja .center-aktion {
+		margin-right: 10px;
+		margin-left: 10px;
+		border-right: none;
+	}
+	.embedded #altruja .weitersagenhilft {
+		right: auto;
+		width: max(150px, 80vw);
+		clear: both;
+	}
+	.embedded #altruja .social-bookmarks-large {
+		min-width: auto;
+		float: right;
+	}
+
+	#altruja #barometer { display:none; }
+	#altruja #verticalBarometer { display: block; }
+
+	#altruja .center-flow {
+		margin-right: 0;
+		border-right: none;
+	}
+}
+
+@media (max-width: 300px) {
+	#altruja .spende-miniform .inputs { float: none; }
+	#altruja .spende-miniform input { border-radius: inherit; }
+}
+
+@media (max-width: 374px) {
+	#altruja .mainbox .left,
+	#altruja .teaser-box-projekte .left {
+		float: none;
+	}
+	#altruja .payment_form input[type=text], #altruja .payment_form .input_text {
+		width: calc(100% - 5px);
+	}
+}

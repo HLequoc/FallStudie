@@ -1,0 +1,299 @@
+
+div.social-bookmarks, #altruja .teaser-box-projekte {display: none;}
+
+.weitersagen3 div.social-bookmarks {display: unset;}
+
+#altruja .box {border: none; padding: 0;}
+
+#altruja .font-light-grey {color: #c5c5c5;}
+    
+#altruja .font-colored {font-weight: 500; color: #e10019; }
+
+#altruja .flow-status-box {text-align: right; font-size: 12px; margin-left: 0;}
+
+
+#showPaymethods img {
+    margin-right: 8px;
+}
+
+#altruja {
+	width: 100%;
+	max-width: 100% !important;
+	padding: 1.25rem !important;
+	margin: 0 !important;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+#altruja flow-box {
+	margin: 0;
+}
+
+#altruja .flow-right {
+    float: none;
+    margin-top: 0;
+    max-width: 100%;
+    min-height: 15px;
+    width: 100%;
+    padding: 0;
+}
+
+#altruja .center-flow {
+    margin: 0;
+    max-width: 100%;
+}
+
+#altruja #spende-help-recurring {
+    color: #b9b9b9 !important;
+}
+
+#altruja .form-box-small {
+    float: left;
+    min-width: 170px;
+    max-width: 100%;
+    width: 100%;
+}
+
+#altruja .form-element-box-large label {
+    font-weight: 500;
+}
+
+
+
+#altruja #customfield3,.form-element-box-medium.spendenempfaenger-container {display: none;}
+
+#altruja .betragbox label {display: inline; font-weight: bold;}
+
+/*  input::placeholder {color: transparent;} */
+
+#altruja input,
+#altruja select {
+	border-radius: 4px !important;
+} 
+
+#altruja input:not([type=submit]),
+#altruja select {
+	background-color: #f6f5f5 !important;
+	border: 1px solid #ced4da !important;
+} 
+
+#altruja select[disabled="disabled"] {
+    border: 0 !important;
+    margin-left: -10px;
+    font-size: 1.5em;
+    color: #238fb6;
+    background-color: white;
+    font-weight: 500;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+} 
+
+#altruja#altruja #spende-help-submit {
+    margin: 40px 0 0 0 !important;
+}
+
+#altruja#altruja #spende-help-submit::before {
+    content: "🔒 ";
+    font-size: larger; 
+}
+
+#altruja .input:hover {
+    border: 1px solid #238fb6;
+    background: #ffffff;
+    outline: none;
+    transition: 0.3s;
+}
+
+input.submit-button:hover {
+    background: #0e617f !important;
+    transition: 0.3s;
+}
+input.submit-button {
+    background: #238fb6 !important;
+    border-radius: 5px;
+    min-width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+#poweredby {display: none;}
+
+.flow-right h3, p#spende-help-select, p#spende-help-select + div {
+    display:none;
+}
+
+/* Spenenaktionsspezifisch */
+
+/* #altruja .box-detail.projektbox {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+} */
+
+#altruja .linked-box h2 {color: #238fb6 !important;}
+
+#altruja .teaser-box-spender .h2-zentriert {display: none;}
+
+#altruja div.teaser-box-spendenaktion {
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+}
+
+.box-action-link {
+    min-width: 102px;
+    background: #e51930;
+    padding: 0px 4px 0px 5px;
+    margin-top: 23px;
+}
+
+#altruja div.facts {
+    margin-top: 29px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #eee;
+}
+
+.projektbox .box-action-link, .projektbox div.right {
+    display: none;
+}
+
+#altruja .center-projekt {
+    width: 100%;
+}
+
+h2#event_name {
+    color: #e51930;
+    display: none;
+}
+
+#altruja span.font-colored, #altruja .font-dark-grey, #altruja .teaser-box-projekt  {
+    display: none;
+}
+
+#altruja span.progress {
+    display: unset !important;
+}
+
+#altruja span.zitat {
+    color: #464646;
+    font-weight: 400;
+    display: unset !important;
+}
+
+#altruja span.msg_by {
+    line-height: 2.5;
+    font-weight: 500;
+}
+
+
+#altruja p.fundraising_for::before {
+    content: "Folgende Spendenseiten sammeln bereits für die Heilsarmee";
+    margin-left: 10px;
+    color: #464646;
+    font-weight: 500;
+}
+
+#altruja h4.donation_page_by {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#eventform  div.form-element-box-medium {
+    width: 70%;
+}
+
+#eventform  input#event_ziel {
+    width: 60px !important;
+}
+
+#altruja .center-teaser {
+    margin-left: 10px;
+}
+
+#altruja .center-teaser h2 {
+    color: #e51930;
+}
+
+#altruja .center-aktion h2 {
+    color: #464646;
+}
+
+#altruja .warningbox p.font-colored {
+    color: #a06c01;
+}
+
+@font-face {
+    font-family: TradeGothic LT;
+    font-style: normal;
+    font-weight: 400;
+    src: local("TradeGothic LT"), url(https://dev.heilsarmee.webbrand.de/layout/app/fonts/TradeGothicLT.0adaacc5.woff) format("woff")
+}
+
+@font-face {
+    font-family: TradeGothic LT;
+    font-style: normal;
+    font-weight: 700;
+    src: local("TradeGothicLT-Bold"), url(https://dev.heilsarmee.webbrand.de/layout/app/fonts/TradeGothicLT-Bold.2ed65509.woff) format("woff")
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+
+
+legend,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .25em;
+    font-family: TradeGothic LT, sans-serif !important;
+    font-weight: 600;
+    line-height: 1.15
+}
+
+input[type=submit] {
+    color: #fff;
+    background-color: #00486a !important;
+    border-color: #00486a !important;
+    font-family: TradeGothic LT,sans-serif !important;
+    font-weight: 600 !important;
+}
+
+label {
+    margin-bottom: 2px;
+    color: #00486a;
+}
+
+input[type=text], textarea {
+    background-clip: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 55px    
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.label-toggle-by::after {
+	display: none !important;
+}
+	

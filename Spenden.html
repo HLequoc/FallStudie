@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="./assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Kleiderspende in Waldbronn</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2/dist/css/bootstrap.min.css">
+	  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./JS/sidebars.js"></script>
+	  <!-- Custom styles for this template -->
+    <link href="./CSS/sidebars.css" rel="stylesheet">
+    <link href="./CSS/headers.css" rel="stylesheet">
+    
+    <!-- Spenden Section -->
+    <link rel="stylesheet" href="./CSS/Spenden/mobile-menu.min.css,colorbox.min.css,tablesorter.min.css,cookieb...-7bcef524.css">
+    <link rel="stylesheet" href="./CSS/Spenden/spenden.css">
+
+
+    <style>
+      .Input_inline_radio {
+        margin-right: 30px;
+      }
+
+      .radio-inline {
+        font-size: medium;
+        font-weight:bold;
+      }
+
+      legend {
+        border-style: solid;
+        border-width:0px 0px 2px 0px; 
+        border-color: #238fb6; 
+        margin-top:32px; 
+        margin-bottom:32px;
+        width:100%;
+        color: #238fb6;
+        
+      }
+    </style>
+
+  </head>
+  <body > 
+    <header class="d-flex flex-wrap justify-content-md-between mb-4 border-bottom">
+      
+      <div class="col-md-1" style="margin-right: 100px;">
+        <a href="/"" >
+          <img src=".\Images\Kleiderbehaelter.png" width="240" height="120">
+        </a>
+      </div>
+      <ul id="MainMenu" class="nav col-md-auto justify-content-center">
+        <li class="dropdown">
+            <button href="#" class="dropbtn px-2 menu_text dropdown-toggle">Home</button>
+            <div class="dropdown-content" style="display:flexbox;">
+              <a id="FirstItem" href="#" class="SubMenuItem">Aktuell</a>
+              <a id="OtherItem" href="#" class="SubMenuItem" >Projekte</a>
+              <a id="LastItem" href="#" class="SubMenuItem" >Unsere Partner</a>
+            </div> 
+        </li>
+        <li class="dropdown">
+          <button href="#" class="dropbtn px-2 menu_text">Spenden</button>
+        </li> 
+        <li class="dropdown">
+          <button href="#" class="dropbtn px-2 menu_text">Team</button>
+        </li> 
+        <li class="dropdown">
+          <button href="#" class="dropbtn px-2 menu_text">Über uns</button>
+        </li> 
+      </ul>
+      
+      <ul id="RightMenu" class="nav col-md-auto justify-content-center mb-md-0 text-end">
+        <li><a href="#" class="nav-link px-2"><img class="iconhover" src=".\Images\Germany.png" width="35" height="35"></a></li>
+        <li><a href="#" class="nav-link px-2"><img class="iconhover" src=".\Images\English.png" width="35" height="35"></a></li>
+        <li><a href="#" class="nav-link px-2 menu_text"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
+          <li><a href="#" class="nav-link px-2 menu_text"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg></a></li>
+        <li><a href="#" class="nav-link px-2 menu_text"></a></li>
+
+      </ul>
+      
+      
+    </header>
+    
+    <main class="d-flex flex-nowrap">
+      <!--<form id="spendeform" name="spendeform" class="spendeform" methode="post">-->
+        <div class="b-example-vr"></div>
+
+        <div id="altruja">
+          <section>
+            <div class="flow-right">
+              <span class="font-colored largish"></span>
+              <div class="font-small">
+                <div id="spende-help-betrag">
+                  <div id="showPaymethods">
+                    <img src="./Images/Spenden/pp4.gif" data-paymenttype="pp4" alt="PayPal" title="PayPal">
+                    <img src="./Images/Spenden/cc.gif" data-paymenttype="pp4" data-subtype="cc" style="display:none" alt="Kreditkarte" title="PayPal (Kreditkarte)">
+                    <img src="./Images/Spenden/sl.gif" data-paymenttype="pp4" data-subtype="sl" style="display:none" alt="Lastschrift" title="PayPal (Lastschrift)">
+                    <img src="./Images/Spenden/cc7.gif" data-paymenttype="cc7" alt="Kreditkarte" title="Micropayment Kreditkarte">
+                    <img src="./Images/Spenden/sl7.gif" data-paymenttype="sl7" alt="Lastschrift" title="Micropayment Lastschrift">
+                  </div> 
+                <div id="spende-help-recurring" class="font-small">Dauerspenden können jederzeit gekündigt werden.</div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="center-flow" style="color:#238fb6">
+              <legend>Ihre Spende</legend>
+              <div class="betragbox form-element-box-large font-small" style="margin-bottom:32px;">
+                <label for="spende_betrag">Betrag</label><br>
+                <label class="radio-inline"><input name="custom_betrag" type="radio" value="20" id="custom_betrag_20" style="margin-right: 7px;" class="custom_betrag">20 €<div class="control__indicator"></div></label>
+                <label class="radio-inline"><input name="custom_betrag" type="radio" value="50" id="custom_betrag_50" checked="checked" style="margin-right: 7px;" class="custom_betrag">50 €<div class="control__indicator"></div></label>
+                <label class="radio-inline"><input name="custom_betrag" type="radio" value="100" id="custom_betrag_100" style="margin-right: 7px;" class="custom_betrag">100 €<div class="control__indicator"></div></label> 
+              </div>
+              
+              <div class="recurring flow-box">
+                <label class="radio-inline Input_inline_radio"><input name="spende[recurring]" type="radio" value="once" id="spende_recurring_once" checked="checked" tabindex="20" aria-describedby="spende-help-recurring">einmalig<div class="control__indicator"></div></label>
+                <label class="radio-inline Input_inline_radio"><input name="spende[recurring]" type="radio" value="monthly" id="spende_recurring_monthly" tabindex="20" aria-describedby="spende-help-recurring">monatlich<div class="control__indicator"></div></label>
+                <label class="radio-inline Input_inline_radio"><input name="spende[recurring]" type="radio" value="quarterly" id="spende_recurring_quarterly" tabindex="20" aria-describedby="spende-help-recurring">vierteljährlich<div class="control__indicator"></div></label>
+                <label class="radio-inline Input_inline_radio"><input name="spende[recurring]" type="radio" value="yearly" id="spende_recurring_yearly" tabindex="20" aria-describedby="spende-help-recurring">jährlich<div class="control__indicator"></div></label>                    
+              </div>
+            </div>
+          </section>
+          <section style="margin-top:20px;">
+            <div class="form-box-small">
+              <div class="form-element-box-large">
+                <label for="spende_custom2">Nachricht</label><br>
+                <input wtype="1" tabindex="20" type="text" name="spende[custom2]" class="input custom custom-text" id="spende_custom2" maxlength="150">
+              </div>
+            </div>
+          </section>
+          <section style="margin-top:40px;">
+
+              <legend>Ihre Kontaktdaten</legend>
+
+              <div class="flow-box tiny smooth not-for-returning">
+                <div class="center-flow tiny smooth">
+                  <div class="form-box-small tiny" style="float:none">
+                    <div class="form-element-box-large not-for-returning profile-form" id="gender_box">
+                      <label class="radio-inline Input_inline_radio"><input class="wide gender" name="spende[profile][gender]" type="radio" value="1" id="spende_profile_gender_1" tabindex="20" style="margin-right: 7px;">Frau<div class="control__indicator"></div></label>
+                      <label class="radio-inline Input_inline_radio"><input class="wide gender" name="spende[profile][gender]" type="radio" value="0" id="spende_profile_gender_0" tabindex="20" style="margin-right: 7px;">Herr<div class="control__indicator"></div></label>
+                      <label class="radio-inline Input_inline_radio"><input class="wide gender" name="spende[profile][gender]" type="radio" value="3" id="spende_profile_gender_3" tabindex="20" style="margin-right: 7px;">Divers<div class="control__indicator"></div></label>      
+                    </div>
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_vorname">Vorname</label><br>
+                      <input tabindex="20" type="text" name="spende[profile][vorname]" class="input" id="spende_profile_vorname">      
+                    </div>
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_nachname">Nachname</label><br>
+                      <input tabindex="20" type="text" name="spende[profile][nachname]" class="input" id="spende_profile_nachname">      
+                    </div>
+                    
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_email">E-Mail-Adresse</label>        <br>
+                      <input tabindex="20" type="text" name="spende[profile][email]" class="input" id="spende_profile_email">        
+                    </div>
+
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_telefon">Telefon Nr.</label>        <br>
+                      <input tabindex="20" type="text" name="spende[profile][Telefonnummer]" class="input" id="spende_profile_telefonnummer">        
+                    </div>
+
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_adresse_strasse">Straße und Hausnummer</label>        <br>
+                      <input tabindex="20" type="text" name="spende[profile][strasse]" class="input" id="spende_profile_strasse">        
+                    </div>
+
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_adresse_postleitzahl">Postleitzahl</label>        <br>
+                      <input tabindex="20" type="text" name="spende[profile][postleitzahl]" class="input" id="spende_profile_postleitzahl">        
+                    </div>
+
+                    <div class="form-element-box-large not-for-returning profile-form">
+                      <label suffix="*" for="spende_profile_adresse_Stadt">Stadt</label>        <br>
+                      <input tabindex="20" type="text" name="spende[profile][postleitzahl]" class="input" id="spende_profile_stadt">   
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              
+              <br class="contact-details-spacer profile-form">
+              
+          </section>
+          
+        </div>
+      <!-- </form> -->
+      <footer>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a href="#" class="nav-link px-2 footer_color" >Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 footer_color">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 footer_color">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 footer_color">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 footer_color">About</a></li>
+        </ul>
+      </footer>
+    </main>
+      
+    
+</body>
+</html>
