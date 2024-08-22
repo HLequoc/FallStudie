@@ -27,6 +27,10 @@
 
 
     <style>
+      header {
+        background-image: url('../Images/Kleidung_schenken.JPG');
+      }
+
       .Input_inline_radio {
         margin-right: 30px;
       }
@@ -100,18 +104,10 @@
           <section>
             <div class="flow-right">
               <span class="font-colored largish"></span>
-              <div class="font-small">
-                <div id="spende-help-betrag">
-                  <div id="showPaymethods">
-                    <img src="./Images/Spenden/pp4.gif" data-paymenttype="pp4" alt="PayPal" title="PayPal">
-                    <img src="./Images/Spenden/cc.gif" data-paymenttype="pp4" data-subtype="cc" style="display:none" alt="Kreditkarte" title="PayPal (Kreditkarte)">
-                    <img src="./Images/Spenden/sl.gif" data-paymenttype="pp4" data-subtype="sl" style="display:none" alt="Lastschrift" title="PayPal (Lastschrift)">
-                    <img src="./Images/Spenden/cc7.gif" data-paymenttype="cc7" alt="Kreditkarte" title="Micropayment Kreditkarte">
-                    <img src="./Images/Spenden/sl7.gif" data-paymenttype="sl7" alt="Lastschrift" title="Micropayment Lastschrift">
-                  </div> 
-                <div id="spende-help-recurring" class="font-small">Dauerspenden können jederzeit gekündigt werden.</div>
-              </div>
-            </div>
+                <div id="showPaymethods" class="font-small">
+                  <img src="./Images/Spenden/pp4.gif" data-paymenttype="pp4" alt="PayPal" title="PayPal">
+                  <img src="./Images/Spenden/cc7.gif" data-paymenttype="cc7" alt="Kreditkarte" title="Micropayment Kreditkarte">
+                </div> 
           </section>
           <section>
             <div class="center-flow" style="color:#238fb6">
@@ -149,9 +145,8 @@
                     <div class="form-element-box-large not-for-returning profile-form" id="gender_box">
                       <label class="radio-inline Input_inline_radio"><input class="wide gender" name="spende[profile][gender]" type="radio" value="1" id="spende_profile_gender_1" tabindex="20" style="margin-right: 7px;">Frau<div class="control__indicator"></div></label>
                       <label class="radio-inline Input_inline_radio"><input class="wide gender" name="spende[profile][gender]" type="radio" value="0" id="spende_profile_gender_0" tabindex="20" style="margin-right: 7px;">Herr<div class="control__indicator"></div></label>
-                      <label class="radio-inline Input_inline_radio"><input class="wide gender" name="spende[profile][gender]" type="radio" value="3" id="spende_profile_gender_3" tabindex="20" style="margin-right: 7px;">Divers<div class="control__indicator"></div></label>      
                     </div>
-                    <div class="form-element-box-large not-for-returning profile-form">
+                    <div class="form-element-box-large not-for-returning profile-form" style="margin-top: 16px;">
                       <label suffix="*" for="spende_profile_vorname">Vorname</label><br>
                       <input tabindex="20" type="text" name="spende[profile][vorname]" class="input" id="spende_profile_vorname">      
                     </div>
@@ -192,7 +187,7 @@
               <br class="contact-details-spacer profile-form">
               
           </section>
-          
+          <input type="submit" class="submit-button" tabindex="20" aria-describedby="spende-help-submit" value="Jetzt spenden »">
         </div>
       <!-- </form> -->
       <footer>

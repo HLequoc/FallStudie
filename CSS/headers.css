@@ -20,8 +20,8 @@
   --menuMarginTop: 150px;
   --menuMarginLeft: -80px;
   --ContentWidth: 1240px;
-  --SubMenuWidth:396px;
-  --SubMenuHeight:30px;
+  --SubMenuWidth:528px;
+  --SubMenuHeight:34px;
   --SubMenuItemWidth: 130px;
   --SubMenuItemMargin:0px;
 }
@@ -85,7 +85,6 @@ footer {
 }
 
 header {
-  background-image: url('../Images/Header_Nail.JPG');
   height: 300px;
   background-position:center;
   background-repeat: no-repeat; 
